@@ -1,0 +1,62 @@
+/**
+ * Copyright 2023 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.review-list-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 50px 20px 0;
+}
+
+.review-container {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+}
+
+.review-container:last-child {
+  border-bottom: none;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.star-container {
+  color: #ce8460;
+}
+
+.review-date {
+  float: right;
+  color: grey;
+  padding-top: 8px;
+}
+
+#review-text {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.reviewer-name {
+  font-family: 'Lora', serif;
+  color: #ce8460;
+}
+
+.header-title {
+  display: inline-block;
+}

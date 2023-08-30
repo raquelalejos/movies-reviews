@@ -1,0 +1,174 @@
+/**
+ * Copyright 2023 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.star-icon-row {
+  color: #ce8460;
+}
+
+.movie-year {
+  font-family: 'Lora', serif;
+  color: #ce8460;
+}
+
+.movie-page .header-title {
+  line-height: 1.4;
+}
+
+.movie-page .imdb-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #ce8460;
+}
+
+.movie-page h2.full-width {
+  width: 100%;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.movie-page div.inline-block {
+  display: inline-block;
+}
+
+.movie-page div.inline-block.full-width {
+  width: 100%;
+}
+
+.movie-page div.inline-block.padding-top {
+  padding-top: 20px;
+}
+
+.movie-page div.inline-block.padding-bottom {
+  padding-bottom: 20px;
+}
+
+.movie-page div.inline-block.short-side {
+  width: 40%;
+}
+
+.movie-page div.inline-block.short-side.padding-left {
+  padding-left: 20px;
+}
+
+.movie-page div.inline-block.large-side {
+  width: 56%;
+  vertical-align: top;
+}
+
+.movie-page div.inline-block.large-side.padding-left {
+  padding-left: 20px;
+}
+
+@media(max-width: 546px){
+  .movie-page div.inline-block.large-side.padding-left {
+    padding-left: 0;
+  }
+
+  .movie-page div.inline-block.short-side, div.inline-block.large-side {
+    width: 100%;
+  }
+
+  .movie-page div.inline-block.centered {
+    text-align: center;
+  }
+
+  .movie-page div.inline-block.padding-left.short-side, div.inline-block.padding-left.large-side {
+    padding-left: 0;
+  }
+
+  .movie-page div.inline-block.padding-top-mobile.short-side, div.inline-block.padding-top-mobile.large-side {
+    padding-top: 20px;
+  }
+}
+
+.movie-page h1 {
+  font-size: 32px;
+  display: inline;
+}
+
+.movie-page button {
+  position: absolute;
+  right: 0;
+  bottom: -25px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color:#ce8460;
+}
+
+.movie-page .max-width-1024 {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.movie-page .max-width-800 {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.movie-page .max-width-600 {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.movie-page .price {
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.movie-page #mat-card-image {
+  width: 100%;
+}
+
+@media(max-width: 546px){
+
+  .movie-page #mat-card-image {
+    width: 60%;
+  }
+}
+
+.movie-page #rating {
+  font-size: 15px;
+}
+
+.movie-page mat-toolbar-row.info-container {
+  height: unset;
+  display: inline-block;
+  white-space: unset;
+}
+
+.movie-page .close-page {
+  position: absolute;
+  top: 36px;
+  right: 0;
+}
+
+.movie-page #close-icon {
+  color: #ce8460;
+  text-shadow: #111 1px 1px 2px;
+  transform: scale(1.5);
+}
+
+app-review-list {
+  display: block;
+  background-color: #f5f5f5;
+  padding-bottom: 1px;
+}
