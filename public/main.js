@@ -1282,7 +1282,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SignInModalComponent: () => (/* binding */ SignInModalComponent)
 /* harmony export */ });
-/* harmony import */ var _Users_waltera_Documents_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/firestore */ 3285);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 1699);
 /* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/dialog */ 7401);
@@ -1414,7 +1414,7 @@ class SignInModalComponent {
   }
   createNewUserAccount() {
     var _this = this;
-    return (0,_Users_waltera_Documents_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
         yield (0,_angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__.createUserWithEmailAndPassword)(_this.auth, _this.userEmail, _this.userPassword);
         if (_this.auth && _this.auth.currentUser) {
@@ -1440,7 +1440,7 @@ class SignInModalComponent {
   }
   signInWithUserInfo() {
     var _this2 = this;
-    return (0,_Users_waltera_Documents_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
         yield (0,_angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__.signInWithEmailAndPassword)(_this2.auth, _this2.userEmail, _this2.userPassword);
         _this2.dialogRef.close();
@@ -1530,7 +1530,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SubmitReviewModalComponent: () => (/* binding */ SubmitReviewModalComponent)
 /* harmony export */ });
-/* harmony import */ var _Users_waltera_Documents_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1699);
 /* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire/firestore */ 3285);
 /* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/dialog */ 7401);
@@ -1718,7 +1718,7 @@ class SubmitReviewModalComponent {
   }
   onSubmitClick() {
     var _this = this;
-    return (0,_Users_waltera_Documents_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this.addingReview = true;
       const ratingsRef = (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__.collection)(_this.firestore, `movies/${_this.movieId}/ratings`);
       yield (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__.addDoc)(ratingsRef, {
