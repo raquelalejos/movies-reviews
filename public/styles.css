@@ -3814,6 +3814,7 @@ header #toolbar-right {
 
 @media(max-width: 830px){
   header #toolbar-right {
+    margin-top: 20px;
     padding-left: 0;
     padding-bottom: 15px;
   }
