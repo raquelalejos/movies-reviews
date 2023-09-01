@@ -21,6 +21,7 @@ import {
   docData,
   collection,
   collectionData,
+  getDocs,
   query,
   where,
   QueryConstraint,
@@ -83,7 +84,7 @@ export class SignInModalComponent {
     this.dialogRef.close();
   }
 
-  launchAuthAction() {
+  async launchAuthAction() {
 
     if (this.data.isCreatingAccount && !this.username) { this.errorMessage = '* Please enter your username'; return; }
 
@@ -96,6 +97,19 @@ export class SignInModalComponent {
     if (!this.emailRegExp.test(this.userEmail)) { this.errorMessage = '* Invalid email'; return; }
 
     if (!this.passwordRegExp.test(this.userPassword)) { this.errorMessage = '* Password should not be entirely made up of numbers; and have more than 8 characters'; return; }
+
+
+    if (this.data.isCreatingAccount && this.username) {
+
+      const constraints: QueryConstraint[] = []
+      constraints.push(where('username', '==', this.username))
+
+      const q = query(this.usersCollectionRef, ...constraints);
+      const querySnapshot = await getDocs(q);
+      console.log('Number of users: ', querySnapshot.docs.length);
+
+      if (querySnapshot.docs.length) { this.errorMessage = '* Username already registered. Please try another!'; return; }
+    }
 
     if (this.data.isCreatingAccount) {
       this.createNewUserAccount();
