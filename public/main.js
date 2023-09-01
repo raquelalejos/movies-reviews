@@ -1140,10 +1140,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ReviewListComponent: () => (/* binding */ ReviewListComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 2235);
-/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/fire/firestore */ 3285);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 2235);
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/firestore */ 3285);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 6575);
+
 /**
  * Copyright 2023 Google LLC
  *
@@ -1166,20 +1168,20 @@ __webpack_require__.r(__webpack_exports__);
 
 function ReviewListComponent_div_0_div_1_ng_container_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "i", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "star");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "i", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "star");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
   }
 }
 function ReviewListComponent_div_0_div_1_ng_container_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "i", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "star_border");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "i", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "star_border");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
   }
 }
 const _c0 = function () {
@@ -1187,68 +1189,79 @@ const _c0 = function () {
 };
 function ReviewListComponent_div_0_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3)(1, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "p", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, ReviewListComponent_div_0_div_1_ng_container_4_Template, 3, 0, "ng-container", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ReviewListComponent_div_0_div_1_ng_container_5_Template, 3, 0, "ng-container", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "h2", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](10, "date");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "p", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 3)(1, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "p", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](4, ReviewListComponent_div_0_div_1_ng_container_4_Template, 3, 0, "ng-container", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, ReviewListComponent_div_0_div_1_ng_container_5_Template, 3, 0, "ng-container", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "h2", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "p", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](10, "date");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](12, "p", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
     const review_r3 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", review_r3.username, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](9, _c0).constructor(review_r3.rating));
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](10, _c0).constructor(5 - review_r3.rating));
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", review_r3.title, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](10, 6, review_r3.timestamp.toDate(), "MMM dd, yyyy"));
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", review_r3.body, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", review_r3.username, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](9, _c0).constructor(review_r3.rating));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](10, _c0).constructor(5 - review_r3.rating));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", review_r3.title, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind2"](10, 6, review_r3.timestamp.toDate(), "MMM dd, yyyy"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", review_r3.body, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
   }
 }
 function ReviewListComponent_div_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ReviewListComponent_div_0_div_1_Template, 13, 11, "div", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "async");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ReviewListComponent_div_0_div_1_Template, 13, 11, "div", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](2, "async");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 1, ctx_r0.reviews));
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](2, 1, ctx_r0.reviews));
   }
 }
 class ReviewListComponent {
   constructor() {
     this.movieID = null;
-    this.firestore = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__.Firestore);
-    this.reviews = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Observable();
+    this.firestore = (0,_angular_core__WEBPACK_IMPORTED_MODULE_1__.inject)(_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.Firestore);
+    this.reviews = new rxjs__WEBPACK_IMPORTED_MODULE_3__.Observable();
   }
   ngOnInit() {
-    const ratingsRef = (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__.collection)(this.firestore, `/movies/${this.movieID}/ratings`);
-    this.reviews = (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_1__.collectionData)(ratingsRef, {
-      idField: 'id'
-    });
+    this.getReviews();
+  }
+  getReviews() {
+    var _this = this;
+    return (0,C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      const ratingsRef = (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.collection)(_this.firestore, `/movies/${_this.movieID}/ratings`);
+      _this.reviews = (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.collectionData)(ratingsRef, {
+        idField: 'id'
+      });
+      const querySnapshot = yield (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.getDocs)(ratingsRef);
+      console.log('Number of reviews: ', querySnapshot.docs.length);
+      querySnapshot.forEach(doc => {
+        console.log(`${doc.id} => ${doc.data()}`);
+      });
+    })();
   }
 }
 ReviewListComponent.ɵfac = function ReviewListComponent_Factory(t) {
   return new (t || ReviewListComponent)();
 };
-ReviewListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+ReviewListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
   type: ReviewListComponent,
   selectors: [["app-review-list"]],
   inputs: {
@@ -1259,14 +1272,14 @@ ReviewListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_
   consts: [["class", "review-list-container", 4, "ngIf"], [1, "review-list-container"], ["class", "review-container", 4, "ngFor", "ngForOf"], [1, "review-container"], [1, "row-1"], [1, "reviewer-name", 3, "innerHTML"], [1, "star-container"], [4, "ngFor", "ngForOf"], [1, "row-2"], [1, "header-title", 3, "innerHTML"], [1, "review-date"], [1, "row-3"], ["id", "review-text", 3, "innerHTML"], ["hidden", "", "id", "star-border-icon", 1, "template", "material-icons"]],
   template: function ReviewListComponent_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ReviewListComponent_div_0_Template, 3, 3, "div", 0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](1, "async");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, ReviewListComponent_div_0_Template, 3, 3, "div", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](1, "async");
     }
     if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](1, 1, ctx.reviews));
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](1, 1, ctx.reviews));
     }
   },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_3__.AsyncPipe, _angular_common__WEBPACK_IMPORTED_MODULE_3__.DatePipe],
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_4__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_4__.AsyncPipe, _angular_common__WEBPACK_IMPORTED_MODULE_4__.DatePipe],
   styles: ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.review-list-container[_ngcontent-%COMP%] {\n  max-width: 1024px;\n  margin: 0 auto;\n  text-align: left;\n  padding: 50px 20px 0;\n}\n\n.review-container[_ngcontent-%COMP%] {\n  padding-bottom: 10px;\n  margin-bottom: 20px;\n  border-bottom: 1px solid rgba(0, 0, 0, .12);\n}\n\n.review-container[_ngcontent-%COMP%]:last-child {\n  border-bottom: none;\n}\n\n.row-1[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n.star-container[_ngcontent-%COMP%] {\n  color: #ce8460;\n}\n\n.review-date[_ngcontent-%COMP%] {\n  float: right;\n  color: grey;\n  padding-top: 8px;\n}\n\n#review-text[_ngcontent-%COMP%] {\n  font-size: 14px;\n  line-height: 1.6;\n}\n\n.reviewer-name[_ngcontent-%COMP%] {\n  font-family: 'Lora', serif;\n  color: #ce8460;\n}\n\n.header-title[_ngcontent-%COMP%] {\n  display: inline-block;\n}\n\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcmV2aWV3LWxpc3QvcmV2aWV3LWxpc3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7RUFjRTs7QUFFRjtFQUNFLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QsZ0JBQWdCO0VBQ2hCLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFLG9CQUFvQjtFQUNwQixtQkFBbUI7RUFDbkIsMkNBQTJDO0FBQzdDOztBQUVBO0VBQ0UsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQiw4QkFBOEI7QUFDaEM7O0FBRUE7RUFDRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsWUFBWTtFQUNaLFdBQVc7RUFDWCxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsMEJBQTBCO0VBQzFCLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxxQkFBcUI7QUFDdkIiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIENvcHlyaWdodCAyMDIzIEdvb2dsZSBMTENcbiAqXG4gKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgXCJMaWNlbnNlXCIpO1xuICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLlxuICogWW91IG1heSBvYnRhaW4gYSBjb3B5IG9mIHRoZSBMaWNlbnNlIGF0XG4gKlxuICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjBcbiAqXG4gKiBVbmxlc3MgcmVxdWlyZWQgYnkgYXBwbGljYWJsZSBsYXcgb3IgYWdyZWVkIHRvIGluIHdyaXRpbmcsIHNvZnR3YXJlXG4gKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiBcIkFTIElTXCIgQkFTSVMsXG4gKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC5cbiAqIFNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmRcbiAqIGxpbWl0YXRpb25zIHVuZGVyIHRoZSBMaWNlbnNlLlxuICovXG5cbi5yZXZpZXctbGlzdC1jb250YWluZXIge1xuICBtYXgtd2lkdGg6IDEwMjRweDtcbiAgbWFyZ2luOiAwIGF1dG87XG4gIHRleHQtYWxpZ246IGxlZnQ7XG4gIHBhZGRpbmc6IDUwcHggMjBweCAwO1xufVxuXG4ucmV2aWV3LWNvbnRhaW5lciB7XG4gIHBhZGRpbmctYm90dG9tOiAxMHB4O1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgcmdiYSgwLCAwLCAwLCAuMTIpO1xufVxuXG4ucmV2aWV3LWNvbnRhaW5lcjpsYXN0LWNoaWxkIHtcbiAgYm9yZGVyLWJvdHRvbTogbm9uZTtcbn1cblxuLnJvdy0xIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xufVxuXG4uc3Rhci1jb250YWluZXIge1xuICBjb2xvcjogI2NlODQ2MDtcbn1cblxuLnJldmlldy1kYXRlIHtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBjb2xvcjogZ3JleTtcbiAgcGFkZGluZy10b3A6IDhweDtcbn1cblxuI3Jldmlldy10ZXh0IHtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBsaW5lLWhlaWdodDogMS42O1xufVxuXG4ucmV2aWV3ZXItbmFtZSB7XG4gIGZvbnQtZmFtaWx5OiAnTG9yYScsIHNlcmlmO1xuICBjb2xvcjogI2NlODQ2MDtcbn1cblxuLmhlYWRlci10aXRsZSB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */"]
 });
 
@@ -1382,71 +1395,85 @@ class SignInModalComponent {
     this.dialogRef.close();
   }
   launchAuthAction() {
-    if (this.data.isCreatingAccount && !this.username) {
-      this.errorMessage = '* Please enter your username';
-      return;
-    }
-    if (!this.userEmail) {
-      this.errorMessage = '* Please enter your email';
-      return;
-    }
-    if (!this.userPassword) {
-      this.errorMessage = '* Please enter your password';
-      return;
-    }
-    if (this.data.isCreatingAccount && !this.usernameRegExp.test(this.username)) {
-      this.errorMessage = '* Username should have letters, numbers, underscores or periods only; and have more than 4 characters';
-      return;
-    }
-    if (!this.emailRegExp.test(this.userEmail)) {
-      this.errorMessage = '* Invalid email';
-      return;
-    }
-    if (!this.passwordRegExp.test(this.userPassword)) {
-      this.errorMessage = '* Password should not be entirely made up of numbers; and have more than 8 characters';
-      return;
-    }
-    if (this.data.isCreatingAccount) {
-      this.createNewUserAccount();
-    } else {
-      this.signInWithUserInfo();
-    }
-  }
-  createNewUserAccount() {
     var _this = this;
     return (0,C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      if (_this.data.isCreatingAccount && !_this.username) {
+        _this.errorMessage = '* Please enter your username';
+        return;
+      }
+      if (!_this.userEmail) {
+        _this.errorMessage = '* Please enter your email';
+        return;
+      }
+      if (!_this.userPassword) {
+        _this.errorMessage = '* Please enter your password';
+        return;
+      }
+      if (_this.data.isCreatingAccount && !_this.usernameRegExp.test(_this.username)) {
+        _this.errorMessage = '* Username should have letters, numbers, underscores or periods only; and have more than 4 characters';
+        return;
+      }
+      if (!_this.emailRegExp.test(_this.userEmail)) {
+        _this.errorMessage = '* Invalid email';
+        return;
+      }
+      if (!_this.passwordRegExp.test(_this.userPassword)) {
+        _this.errorMessage = '* Password should not be entirely made up of numbers; and have more than 8 characters';
+        return;
+      }
+      if (_this.data.isCreatingAccount && _this.username) {
+        const constraints = [];
+        constraints.push((0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.where)('username', '==', _this.username));
+        const q = (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.query)(_this.usersCollectionRef, ...constraints);
+        const querySnapshot = yield (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.getDocs)(q);
+        console.log('Number of users: ', querySnapshot.docs.length);
+        if (querySnapshot.docs.length) {
+          _this.errorMessage = '* Username already registered. Please try another!';
+          return;
+        }
+      }
+      if (_this.data.isCreatingAccount) {
+        _this.createNewUserAccount();
+      } else {
+        _this.signInWithUserInfo();
+      }
+    })();
+  }
+  createNewUserAccount() {
+    var _this2 = this;
+    return (0,C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
-        yield (0,_angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__.createUserWithEmailAndPassword)(_this.auth, _this.userEmail, _this.userPassword);
-        if (_this.auth && _this.auth.currentUser) {
-          yield (0,_angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__.updateProfile)(_this.auth.currentUser, {
-            displayName: _this.username
+        yield (0,_angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__.createUserWithEmailAndPassword)(_this2.auth, _this2.userEmail, _this2.userPassword);
+        if (_this2.auth && _this2.auth.currentUser) {
+          yield (0,_angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__.updateProfile)(_this2.auth.currentUser, {
+            displayName: _this2.username
           });
         }
         const user = {
-          email: _this.userEmail,
-          username: _this.username
+          email: _this2.userEmail,
+          username: _this2.username
         };
-        const userRef = yield (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.addDoc)((0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.collection)(_this.store, 'users'), user);
-        _this.dialogRef.close();
+        const userRef = yield (0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.addDoc)((0,_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__.collection)(_this2.store, 'users'), user);
+        _this2.dialogRef.close();
       } catch (err) {
         const error = err;
         if (error && error.code == 'auth/email-already-in-use') {
-          _this.errorMessage = '* Email already registered. Please sign in!';
+          _this2.errorMessage = '* Email already registered. Please sign in!';
         } else {
-          _this.errorMessage = '* Account creation failed. Please try again!';
+          _this2.errorMessage = '* Account creation failed. Please try again!';
         }
       }
     })();
   }
   signInWithUserInfo() {
-    var _this2 = this;
+    var _this3 = this;
     return (0,C_Users_user_workspace_movies_reviews_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
-        yield (0,_angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__.signInWithEmailAndPassword)(_this2.auth, _this2.userEmail, _this2.userPassword);
-        _this2.dialogRef.close();
+        yield (0,_angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__.signInWithEmailAndPassword)(_this3.auth, _this3.userEmail, _this3.userPassword);
+        _this3.dialogRef.close();
       } catch (err) {
         const error = err;
-        _this2.errorMessage = '* User sign in failed. Please try again!';
+        _this3.errorMessage = '* User sign in failed. Please try again!';
       }
     })();
   }
