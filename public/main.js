@@ -674,7 +674,7 @@ HomepageComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4_
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](26, "async");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](27, "footer")(28, "div", 15);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](29, " Movies' Reviews \u00A9 2023 ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](29, " Raquel Alejos \u00A9 2023 ");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
     }
     if (rf & 2) {
@@ -1108,7 +1108,7 @@ MoviePageComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](16, MoviePageComponent_div_16_Template, 46, 18, "div", 9);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipe"](17, "async");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](18, "footer")(19, "div", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](20, " Movies' Reviews \u00A9 2023 ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](20, " Raquel Alejos \u00A9 2023 ");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
     }
     if (rf & 2) {
